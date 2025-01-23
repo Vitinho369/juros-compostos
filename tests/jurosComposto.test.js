@@ -7,5 +7,5 @@ test('calcula juros compostos com valores positivos', () => {
 
 test('calcula juros compostos com taxa de juros negativa', () => {
     const calculo = new JurosCompostos(1000, -5, 12);
-    expect(calculo.calcular()).toBe(552.29);
+    expect(calculo.calcular()).toBe(540.36);
 });
