@@ -63,3 +63,4 @@ const main = () => {
 }
 
 main();
+module.exports = JurosCompostos;
